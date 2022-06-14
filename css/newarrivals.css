@@ -1,0 +1,117 @@
+#new-arrivals {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    width: 896px;
+    height: 867px;
+    color: black;
+}
+
+.container {
+    display: flex;
+
+}
+
+.new-arrival__content {
+    width: 370px;
+    height: 398px;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+.new-arrivals__title {
+    display: flex;
+    color: #000;
+}
+
+.horisontal-line {
+    height: 2px;
+    width: 33%;
+    background-color: #e0e0e0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.new-arrivals__h2 {
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 52px;
+    text-align: left;
+    font-weight: 400;
+    word-break: break-word;
+    width: 170px;
+    align-items: flex-end;
+
+
+}
+
+.new-arrivals-dot {
+    font-family: 'Bebas Neue', cursive;
+    color: #f40106 !important;
+    font-size: 52px;
+    margin-right: 10px;
+
+
+
+}
+
+.new-arrivals__text {
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(113, 116, 116);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.new-arrivals-btn {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 15px 15px 15px 0;
+    padding: 15px 26px 15px 15px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+
+
+}
+
+.new-arrivals-btn:hover {
+    background-color: rgb(31, 30, 30);
+    color: white;
+
+}
+
+.new-arrivals__carousel {
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(113, 116, 116);
+    width: 597px;
+    height: 338px;
+}
+
+.price {
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(244, 1, 6);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.new-arrivals__carousel-slide {
+    display: block;
+    justify-content: center;
+    width: 150px;
+    height: 338px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.card-btn {
+    border: 2px solid black;
+    color: #fff;
+    background-color: black;
+
+}

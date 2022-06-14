@@ -1,0 +1,47 @@
+.midseason_title{
+    font-size: 52px;
+    color: #222323;
+    line-height: 1.14;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.midseason-dot{
+    font-family: 'Bebas Neue', cursive;
+    color: #f40106;
+    font-size: 52px;
+    margin-right: 10px;
+}
+
+.midseason_paragraph{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #717474;
+    text-transform: none;
+    margin-bottom:30px ;
+}
+
+.midseason_text{
+    text-align: center;
+}
+
+.midseason{
+    margin-top: 70px;
+    padding-bottom:30px;
+}
+
+.midseason_text_line{
+    text-align: center;
+    border-bottom: 2px solid rgb(201, 199, 199);
+    width: 10%;
+    margin-bottom: 10px;
+}

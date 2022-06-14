@@ -1,0 +1,181 @@
+.why-choose-us-main {
+    width: 100%;
+    max-width: 989px;
+    box-sizing: border-box;
+}
+.why-choose-us-collections-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.why-choose-us-collections {
+    padding: 90px 0 60px;
+}
+.why-choose-us-shipping-return-materials-payment {
+    margin-top: 50px;
+}
+ 
+.why-choose-us-h3-text {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #222323;
+    font-size: 52px;
+    font-weight: 400;
+}
+.why-choose-us-h3-text-shipping-return-materials-payment {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #222323;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.why-choose-us-p-text {
+    font-family: 'PT Sans' , sans-serif;
+    color: rgb(113, 116, 116);
+    font-size: 20px;
+    line-height: 1.5;
+}
+.why-choose-us-p-text-keep-fit{
+    font-family: 'PT Sans' , sans-serif;
+    color: rgb(113, 116, 116);
+    font-size: 20px;
+    font-weight: 400;
+}
+.why-choose-us-moto-and-services {
+    padding: 50px 0 90px;
+}
+.why-choose-us-p-text-shipping-return-materials-payment {
+    font-family: 'PT Sans' , sans-serif;
+    color: rgb(113, 116, 116);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 1.7;
+}
+.why-choose-us-p-text-shop-collection {
+    font-family: 'PT Sans' , sans-serif;
+    color: rgb(34, 35, 35);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.why-choose-us-p-text-shop-collection:hover {
+    text-decoration: underline;
+}
+.special-color-dot {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #f40106 !important;
+}
+
+.new-arrivals {
+    background-image: url(../img/new-arrivals-block-picture.svg);
+    background-size: cover;
+    height: 303px;
+    margin: 0px 15px;
+    padding: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.horizontal {   
+    height: 2px;
+    width: 18%;
+    background-color: #f40106;
+    margin: 15px 0px;
+} 
+.trainers {
+    background-image: url(../img/trainers-block-picture.webp);
+    background-size: cover;
+    height: 303px;
+    margin: 50px 15px 0;
+    padding: 33px 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.hot_sale {
+    background-image: url(../img/hot-sale-block-picture.webp);
+    background-size: cover;
+    height: 303px;
+    margin: 50px 15px 0;
+    padding: 33px 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.why-choose-us {
+    text-align: center;
+    font-weight: 400;
+    padding: 0px 15px;
+}
+.why-choose-us-horizontal {
+    height: 2px;
+    width: 8%;
+    background-color: #e0e0e0;
+    margin: 15px auto;
+}
+
+.why-choose-us-shipping-return-materials-payment-icon {
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto;
+    padding: auto;
+}
+.free-easy-eco-payment {
+    text-align: center;
+    margin: 50px 15px 0 15px;
+    border: 2px solid #e0e0e0;
+    padding: 30px 20px;
+}
+@media (min-width: 990px) {
+    .why-choose-us-main {
+        margin: auto;
+        max-width: 1200px;
+    }
+    .why-choose-us-collections-grid {
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+    }
+    .why-choose-us-shipping-return-materials-payment {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-top: 50px;
+    }
+    .why-choose-us-collections {
+        padding: 120px 0 60px;
+    }
+    .why-choose-us-moto-and-services {
+        padding: 50px 0 90px;
+    }
+    .new-arrivals {
+        background-image: url(../img/new-arrivals-block-picture.svg);
+        background-size: cover;
+        height: 375px;
+        margin: 50px 15px 0;
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .trainers {
+        background-image: url(../img/trainers-block-picture.webp);
+        background-size: cover;
+        height: 375px;
+        margin: 50px 15px 0;
+        padding: 45px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .hot_sale {
+        background-image: url(../img/hot-sale-block-picture.webp);
+        background-size: cover;
+        height: 375px;
+        margin: 50px 15px 0;
+        padding: 45px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}   

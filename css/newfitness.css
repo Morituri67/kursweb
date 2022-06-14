@@ -1,0 +1,76 @@
+.new_fitness_title{
+    font-size: 124px;
+    color: #222323;
+    line-height: 1;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    text-transform: none;
+    padding-bottom: 20px;
+}
+
+.subtitle_newfintess{
+    font-size: 24px;
+    line-height: 1.36;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    color: #a0a0a0;
+}
+
+.new-arrivals-doot{
+    font-family: 'Bebas Neue', cursive;
+    color: #f40106 !important;
+    font-size: 142px;
+    margin-right: 10px;
+}
+.button{
+    color: red;
+}
+.button_box{
+    weight:110px;
+    height:40px;
+    background: red;
+}
+
+
+.button_link{
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color:#f40106;
+
+}
+.buttonbox{
+    width: 170px;
+    height: 50px;
+    background-color: #f40106;
+    text-align: center;
+}
+.textbut{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    vertical-align: middle;
+
+}
+
+.buttonbox:hover{
+    background-color:#222323 ;
+    transition-duration: 0.4s;
+}
+
+.newfintesscollection_content{
+    background-image: url("../img/whitebanner.jpg");
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-position: center center;
+}
+
+.newfintesscollection_content{
+    display: flex;
+    align-items: center;
+}
+
+

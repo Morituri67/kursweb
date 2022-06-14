@@ -1,0 +1,176 @@
+.email-box-background-img {
+    background-image: url(../img/footer-background-address-bar.webp);
+    background-size: cover;
+    background-position: 43%;
+    margin-top: 50px;
+    max-width: 989px; 
+    width: 100%;
+    height: 100%;
+}
+
+.email-box-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    padding-top: 90px;
+    text-align: left;
+    }
+.email-box-img {
+    width: 65px;
+    display: flex;
+}
+.email-box-information-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.email-box-text {
+    color: var(--text-color);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.email-box-texting {
+    color: var(--block-color);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.email-box-send {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px;    
+}
+.email-box-send-input {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border: 10px solid var(--email-window);
+    background-color: var(--email-window);
+}
+.email-box-send-button {
+    border: 10px solid var(--text-color);
+    background-color: var(--text-color);
+    color: var(--window-color);
+    font-weight: bold;
+}
+.animation-button:hover {
+    transition: 0.7s;
+    border: 10px solid var(--block-color);
+    background-color: var(--block-color);
+}
+.animation-button:not(:hover){
+    transition: 0.7s;
+    border: 10px solid var(--text-color);
+    background-color: var(--text-color);
+}
+.map-box-bar {
+    width: 100%;
+    max-width: 989px;
+    height: 600px;
+}
+.map {
+    position: absolute;
+    display: block;
+    height: 600px;
+	width: 100%;
+ 	z-index: 0;
+    max-width: 989px;
+}
+.map-box-contact {
+    position: relative;
+    top: 20rem;
+    left: 7%;
+    z-index: 1; 
+    width: 85%;
+    background: var(--window-color);
+	height: auto;
+	color: var(--block-color);
+    padding: 30px 70px;
+    text-align: center;
+}
+.map-box-contact__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.map-box-contact__h3 {
+    color: var(--block-color);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.map-box-contact-h3__point {
+    color: var(--text-color);
+}
+.map-box-adress__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: var(--text-email);
+    line-height: 25px;
+}
+.map-box-tel-email {
+    text-decoration: none;
+    color: var(--text-email);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}   
+@media (min-width: 990px) {
+    .email-box-background-img {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;  
+        flex-direction: row;
+        padding: 0 45px;
+        background-position: 50%;
+    }
+    .email-box-information {
+        padding: 0;
+        padding-right: 25px;      
+    }
+    .email-box-information-text {
+        text-align: center;
+        line-height: 20px;
+    }
+    .email-box-send-input {
+        
+        height: 50px;
+        font-weight: bold;
+        width: 250px;
+    }
+    .email-box-send-button {
+        
+        width: 250px;
+        height: 50px;
+    }
+    .map-box-bar {
+        width: 100%;
+        max-width: 100%;
+    }
+    .map {
+        width: 100%;
+        max-width: 100%;
+    }
+    .map-box-contact {
+        width: fit-content;
+        max-width: 100%;
+        margin: 0;
+        padding: 90px 40px;
+        left: 65%;
+        top: 20%;
+    }
+
+}
+
+
+        

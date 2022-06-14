@@ -1,0 +1,119 @@
+.advertising {
+  background-image: url(../img/manwithbasketballformobile.jpg);
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Bebas Neue, cursive;
+  background: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.advertising__main {
+  padding: 110px 24px;
+}
+
+.main__underheader {
+  font-family: Bebas Neue, cursive;
+  font-size: 22px;
+  line-height: 1.36;
+  color: var(--text-email);
+}
+
+.main__header-of-text {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+}
+
+.main__header-of-text>.main-header-of-text-text {
+  font-family: Bebas Neue, cursive;
+  color: var(--block-color);
+  font-size: 68px;
+}
+
+div > h3 {
+  font-weight: 400;
+}
+
+.main__header-of-text>.main-header-of-text-text>.header-of-text-text-red {
+  font-family: Bebas Neue, cursive;
+  color: var(--text-color);
+  font-size: 68px;
+}
+
+.main__link {
+  margin-top: 50px;
+}
+
+.main-link-button-input {
+  font-family: PT Sans, sans-serif;
+  font-size: 16.5px;
+  line-height: 1.33em;
+  padding: 18px 30px;
+  background-color: var(--text-color);
+  border: 0;
+  font-weight: bold;
+  color: var(--window-color);
+}
+
+.main-link-button-input:hover {
+  background-color: Black;
+  transition-duration: 0.6s;
+}
+
+@media (min-width: 1200px) {
+  .advertising__main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Bebas Neue, cursive;
+  }
+
+  .advertising {
+    background-image: url(../img/manwithbasketballfordesctop.jpg);
+    width: 100%;
+    background-size: cover;
+    max-width: none;
+    background-position: left;
+  }
+
+  .advertising__main {
+    padding: 210px 24px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .advertising {
+    background: no-repeat;
+    background-image: url(../img/manwithbasketballfordesctop.jpg);
+    width: 100%;
+    background-size: cover;
+  }
+
+  .advertising__main {
+    padding: 210px 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .main__header-of-text {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+  }
+
+  .main__header-of-text>.main-header-of-text-text>.header-of-text-text-red,
+  .main__header-of-text>.main-header-of-text-text {
+    font-size: 88px;
+    line-height: 1.7;
+  }
+
+@mdedia (min-width: 768px) {
+  .advertising__main {
+    padding: 250px 24px;
+  }
+}

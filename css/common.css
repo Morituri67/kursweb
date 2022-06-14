@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+:root {
+    font-family: 'Bebas Neue', cursive;
+    --block-color: rgb(31, 30, 30);
+    scroll-behavior: smooth;
+    color: #fff;
+    --text-color: red;
+    --text-email: rgb(104, 103, 103);
+    --email-window: rgb(216, 216, 216);
+    --window-color: white;
+}
