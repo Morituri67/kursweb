@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SavoyeLetPlain';
+    src: url('SavoyeLetPlain.woff2') format('woff2'),
+        url('SavoyeLetPlain.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
